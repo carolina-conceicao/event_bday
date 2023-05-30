@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./images/pinata.svg" alt="pinhata">
+            <p class="hero__text">
+                O aniversário desta programadora começa em <br> <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos"></ul>>
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Meu cafofo - Aracruz - Espírito Santo
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        22/12/2023 às 7:38 AM
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">Marque na sua agenda</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="event">
+        <div class="container" data-aos="fade-right">
+            <div class="event__detail">
+                <h2 class="event__detail__title">A aniversariante</h2>
+                <p class="event__detail__description">
+                    Relaxa, ela é teimosa mesmo. Nem ela sabe direito onde vai comemorar, se é em casa, viajando ou será que vai ter um evento? Quem sabe ela não passe quentinha debaixo das cobertas. 
+                    Pode ser online também, juntar os amigos de todos os lugares para ser bobos juntos!
+                </p>
+            </div>
+            <img class="event__image" src="./images/cats-cake.jpg" alt="gatos no aniversario">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
